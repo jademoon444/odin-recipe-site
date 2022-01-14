@@ -2,9 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Shippori+Antique&display=swap');
 
 *{
-    color: rgb(50, 51, 50);
-    background-color: rgb(186, 238, 197);
+    color: rgb(73, 75, 73);
+    background-color: rgb(242, 253, 244);
     font-family: 'Shippori Antique', sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+    
 
 /* here's a run down on hwat i need to do for this stylesheet
     - figure out how i want it to look 
