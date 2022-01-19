@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Shippori+Antique&display=swap');
 
 *{
-    color: rgb(39, 38, 38);
+    color: rgba(0, 0, 0, 0.808);
     margin: 0;
     padding:0;
     font-family: 'Shippori Antique', sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
@@ -19,12 +19,13 @@
 
 
 .div.navbar{
+    background-color: rgb(120, 167, 114,.5);
     width: 100%;
-    height: 9%;
+    height: 8vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: transparent;
+    
     
 }
 .nav-links{
@@ -36,15 +37,29 @@
     list-style: none;
 }
 .nav-links a{
-    color: rgb(39, 38, 38);
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 14px;
     text-transform: uppercase;
+    
+}
+.body.alfredo,
+.body.pho,
+.body.dough{
+    background-color:rgba(239, 239, 239, 0.808);
+}
+.content.alfredo,
+.content.pho,
+.content.dough{
+    margin-top:15px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    
 }
 
-.content{
+.div.content{
     position: absolute;
     top: 20%;
     left: 5%;
@@ -54,6 +69,7 @@
     background-color: transparent;
 }
 .h1.index{
+    
     background-color: transparent;
     font-weight: bolder;
     text-transform: uppercase;
@@ -72,11 +88,33 @@
     background-color: transparent;
     font-size: 18px;
 }
+
+.h1.alfredo,
+.h1.pho,
+.h1.cookie{
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    text-align: center;
+    color: rgb(13, 14, 13);
+}
+.images{
+    display:flex;
+    justify-content: center;
+}
+.img.alfredo,
+.img.pho,
+.img.cookiedough{
+    height: 550px;
+    width: 950px;
+}
+
 @media screen and (max-width:1250px){
-    .nav-links{
+     .nav-links{
         width:35%;
     }
 }
+
 /*.sidebar{
     width: 50px;
     height: 100%;
