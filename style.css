@@ -88,7 +88,16 @@
     background-color: transparent;
     font-size: 18px;
 }
-
+.img.alfredo,
+.img.pho,
+.img.cookiedough{
+    height: 550px;
+    width: 950px;
+}
+.images{
+    display:flex;
+    justify-content: center;
+}
 .h1.alfredo,
 .h1.pho,
 .h1.cookie{
@@ -98,16 +107,8 @@
     text-align: center;
     color: rgb(13, 14, 13);
 }
-.images{
-    display:flex;
-    justify-content: center;
-}
-.img.alfredo,
-.img.pho,
-.img.cookiedough{
-    height: 550px;
-    width: 950px;
-}
+
+
 
 @media screen and (max-width:1250px){
      .nav-links{
